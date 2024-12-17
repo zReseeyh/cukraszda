@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Slackside+One&display=swap');
+
+.navbar{
+    font-size: 18px;
+    background-color: #3f3f3fb2 !important; 
+    list-style-type: none;
+    color: whitesmoke;
+}
+.navbar-nav a {
+    color: whitesmoke;
+    transition: 0.4s ease;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.navbar-nav a:hover{
+    color: rgb(73, 60, 51);
+    transition: 0.4s ease;
+}
+
+/* MAIN */
+#main .img-magnifier-container {
+    position: relative;
+}
+#main .img-magnifier-glass {
+    position: absolute;
+    border: 3px solid #000;
+    border-radius: 50%;
+    cursor: none;
+    /*Set the size of the magnifier glass:*/
+    width: 100px;
+    height: 100px;
+}
+
+#main .torta-nev{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+}
+#main .torta-ar{
+    color: rgb(128, 94, 0);
+    font-size: 2.6rem;
+    font-family: "Slackside One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+#main .btn-info{
+    background: rgb(140,112,95) !important;
+    border: 0 !important;
+    font-size: 1.4rem;
+    color: white;
+}
+#main .btn-info:hover{
+    background: white !important;
+    color: rgb(140,112,95) !important;
+}
+#main .torta-leiras{
+    text-align: justify;
+}
+
+
+table{
+    --bs-table-bg: transparent !important;
+}
+/* rendeles */
+#main #rendeles a{
+    width: 22rem;
+}
+#main #rendeles .reszletekbtn{
+    background: rgb(140,112,95);
+    background: linear-gradient(90deg, rgba(140,112,95,1) 0%, rgba(173,148,128,1) 50%, rgba(140,112,95,1) 100%);
+    transition: 0.6s ease-in-out;
+    border: 0;
+    width:inherit;
+    height: 3rem;
+    border-radius: 3px;
+    color: whitesmoke;
+    border: 1px solid;
+    font-size: 1.4rem;
+}
+#main #rendeles .reszletekbtn:hover{
+    transform: scale(1.1);
+}
+/* allergenek */
+#allergenek{
+    font-size: 1.8rem;
+}

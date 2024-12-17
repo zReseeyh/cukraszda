@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
+:root{
+    user-select: none;
+}
+body{
+    background: rgb(222,222,222);
+    background: linear-gradient(90deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 50%, rgba(222,222,222,1) 100%);
+}
+
+/* NAV */
+.navbar{
+    font-size: 18px;
+    background-color: #3f3f3fb2 !important; 
+    list-style-type: none;
+    color: whitesmoke;
+}
+.navbar-nav a {
+    color: whitesmoke;
+    transition: 0.4s ease;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.navbar-nav a:hover{
+    color: rgb(73, 60, 51);
+    transition: 0.4s ease;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.custom-toggler.navbar-toggler{
+    border-style: none;
+}
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+  /* END: NAV */
+
+
+
+
+
+
+/*Main*/
+
+
+/* tortak */
+#main #tortak img{
+    width: 22rem;
+}
+#main #bemutatkozas p{
+    font-family: "Lustria", serif;
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 2.2rem;
+}
+#main #tortak h3{
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-size: 8rem;
+}
+#main #tortak .card_costume img{
+    transition: 0.4s ease-in-out;
+    filter: drop-shadow(9px 3px 12px black);
+}
+#main #tortak .card_costume img:hover{
+   transform: scale(1.1);
+}
+#main #tortak .card_costume .torta_neve{
+    text-transform: uppercase;
+    font-family: "Madimi One", sans-serif;
+}
+#main #tortak .card_costume a{
+    width: 22rem;
+}
+#main #tortak .card_costume .reszletekbtn{
+    background: rgb(140,112,95);
+    background: linear-gradient(90deg, rgba(140,112,95,1) 0%, rgba(173,148,128,1) 50%, rgba(140,112,95,1) 100%);
+    transition: 0.6s ease-in-out;
+    border: 0;
+    width:inherit;
+    height: 3rem;
+    border-radius: 3px;
+    color: whitesmoke;
+    border: 1px solid;
+    font-size: 1.4rem;
+}
+#main #tortak .card_costume .reszletekbtn:hover{
+    transform: scale(1.1);
+}
+
+/* banner */
+#main #banner{
+    background-image: url('../media/banner.jpg');
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 4rem;
+    font-weight: 700;
+    color: whitesmoke;
+    font-family: "Madimi One", sans-serif;
+}
+#main #banner .col-4{
+    background-color: rgba(77, 77, 77, 0.342);
+}
+#main #banner .costumetext{
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-weight: 400 !important;
+}
+@media screen and (max-width: 950px) {
+    #main #banner{
+        font-size: 1.2rem;
+    }
+  }
+
+/* Kapcsolat */
+#main #kapcsolat h3{
+    font-size: 5rem;   
+    font-family: "Lustria", serif;
+}
+#main #kapcsolat i{
+    font-size: 4rem;   
+    color: #8C705F;
+}
+/* Nyitvatartas */
+#main #nyitvatartas h4{
+    font-size: 2.6rem;
+}
+#main #nyitvatartas table{
+    font-size: 2rem;
+    --bs-table-bg: transparent !important;
+}
+#main #nyitvatartas table th{
+    font-weight: 600;
+}
+#main #nyitvatartas table td{
+    font-family: "Madimi One", sans-serif;
+}
+/* Map */
+#main #map iframe{
+    width: 100%;
+    height: 16rem;
+    border: 0;
+}
+/*::Main*/
+
+/* Footer */
+
+
+/* ::Footer */
